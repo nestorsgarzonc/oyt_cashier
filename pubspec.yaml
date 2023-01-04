@@ -27,6 +27,9 @@ dependencies:
     path: ./packages/oyt_front_table
   oyt_front_menu:
     path: ./packages/oyt_front_menu
+  qr_flutter: ^4.0.0
+  download: ^0.0.1+1
+  share_plus: ^6.3.0
 
 dev_dependencies:
   flutter_test:
