@@ -11,7 +11,7 @@ import 'package:oyt_front_table/widgets/call_to_waiter_card.dart';
 import 'package:oyt_front_table/widgets/table_status_card.dart';
 import 'package:oyt_front_widgets/drawer/drawer_layout.dart';
 import 'package:oyt_front_widgets/title/section_title.dart';
-import 'package:oyt_front_widgets/widgets/buttons/custom_elevated_button.dart';
+
 import 'package:oyt_front_widgets/widgets/custom_text_field.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:share_plus/share_plus.dart';
@@ -111,7 +111,7 @@ class _TableScreenState extends ConsumerState<TableScreen> {
               //TODO: Show user list
               const Text('User list here'),
               const SizedBox(height: 10),
-              CustomElevatedButton(
+              FilledButton(
                 onPressed: _onChangeStatus,
                 child: const Text('Cambiar estado de la mesa'),
               ),
