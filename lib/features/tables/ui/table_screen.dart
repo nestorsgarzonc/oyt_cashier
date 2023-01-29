@@ -65,7 +65,7 @@ class _TableScreenState extends ConsumerState<TableScreen> {
               RepaintBoundary(
                 key: _qrKey,
                 child: Container(
-                  decoration: CustomTheme.drawerBoxDecoration.copyWith(
+                  decoration: ref.watch(themeProvider.notifier).drawerBoxDecoration.copyWith(
                     borderRadius: BorderRadius.circular(10),
                     border: Border.all(color: Colors.black12),
                   ),
